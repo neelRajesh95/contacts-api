@@ -183,8 +183,3 @@ migrations/
 
 The HTTP handlers deal with requests and responses, the service layer contains validation/business logic, and the repository handles PostgreSQL queries.
 
-## Notes
-
-Tenant ID is passed through the `X-Tenant-ID` header as requested in the exercise.
-
-The enrichment endpoint is intentionally kept simple because the exercise does not specify an external enrichment provider. In a production application, this could be moved to an asynchronous process and integrated with an external provider.
