@@ -9,9 +9,9 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
 
-	"github.com/YOUR_USERNAME/contacts-api/internal/model"
-	"github.com/YOUR_USERNAME/contacts-api/internal/repository"
-	"github.com/YOUR_USERNAME/contacts-api/internal/service"
+	"github.com/neelRajesh95/contacts-api/internal/model"
+	"github.com/neelRajesh95/contacts-api/internal/repository"
+	"github.com/neelRajesh95/contacts-api/internal/service"
 )
 
 type ContactHandler struct {

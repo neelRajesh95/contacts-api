@@ -12,10 +12,10 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 
-	"github.com/YOUR_USERNAME/contacts-api/internal/database"
-	"github.com/YOUR_USERNAME/contacts-api/internal/handler"
-	"github.com/YOUR_USERNAME/contacts-api/internal/repository"
-	"github.com/YOUR_USERNAME/contacts-api/internal/service"
+	"github.com/neelRajesh95/contacts-api/internal/database"
+	"github.com/neelRajesh95/contacts-api/internal/handler"
+	"github.com/neelRajesh95/contacts-api/internal/repository"
+	"github.com/neelRajesh95/contacts-api/internal/service"
 )
 
 func main() {

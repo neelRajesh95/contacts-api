@@ -9,7 +9,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/YOUR_USERNAME/contacts-api/internal/model"
+	"github.com/neelRajesh95/contacts-api/internal/model"
 )
 
 var ErrInvalidContact = errors.New(
